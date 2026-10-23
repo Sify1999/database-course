@@ -1,4 +1,4 @@
-# Operating Systems — Presentation Archive
+# DataBases — Presentation Archive
 
 A shared archive of class presentations, presenters, slides, and review questions for the Operating Systems course.
 
@@ -6,10 +6,10 @@ A shared archive of class presentations, presenters, slides, and review question
 
 ## Course Information
 
-- **Course:** Operating Systems
+- **Course:** DataBases
 - **Professor:** [Professor's Name]
-- **Semester:** [Semester / Academic Year]
-- **Repository maintainer:** [Your Name]
+- **Semester:** [Fall 2026 | Mehr 1405]
+- **Repository maintainer:** [Arshia Sabbaghi]
 - **Repository visibility:** Public
 
 ## Presentation Chart
