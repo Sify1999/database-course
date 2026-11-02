@@ -1,0 +1,135 @@
+data = بود خام
+set of value
+
+
+Arta
+21 --> 2005/03/29
+M110 
+University of Science and Culture
+
+information
+Data Source:
+falt file: csv,text, tsv
+sql server, postgre sql, mongodb, oracle, sqlite, redis,
+Web 
+json, 
+
+
+
+
+
+financial, CRM, QA, Accounting
+
+
+
+ID, Firsname, lastname, Age
+1, Arta, Mohammadbeigi, 21
+2, Nastaran, Ramezani, 20
+3, Erfan, Torkashvand, 21
+4, 213243, dsfcsjdc78, 2026/09/07
+
+
+Inegrity, Consistecy
+Constraint
+
+
+
+Raw Data
+
+---------------------
+ID, Employeename
+1, Arta
+2, Nastaran
+3, Helma
+---------------
+
+ID, Department
+1, IT
+2, HR
+3, Financial
+4, Financial
+
+
+----------------
+NF1:
+1. هر سطری باید یونیک باشه
+2. DataType ها در هر ستون باید یکسان باشه
+3. هر فیلد باید تک مقداری باشه
+
+------------------------
+NF2:
+وابستگی ستون های غیر کلید به ستون کلید
+
+
+Primary  Key
+1. Uniqe
+2. not Null
+3. Not Updateable
+4. Narrow DataType
+--------------------------
+NF3:
+وابستگی ستون های غیرکلید بصورت غیر مستقیم به ستون کلید
+------------------------------
+Event:
+
+EmployeeCode, EmployeeName, ProjectCode, ProjectName, CompletiomDate, WorkedHours, JobCode, JobTitle
+101, Arta Mohammadbeigi, 500, Financial, 2020-01-01, 100, 100, DataScientist
+102, Nastaran Ramezani, 500, Financial, 2020-01-01, 72, 200, Web Developer
+103, Nima Jamali, 200, HR, 2025-03-03, 200, 300, DBA
+101, Arta Mohammadbeigi, 500, CRM, 2025-03-03, 200, 300, Data Engineer
+NULL, NULL, 150, CRM, NULL, NULL, NULL, NULL
+
+
+
+
+Employee
+----------
+EmployeeCode
+EmployeeName
+JobCode
+
+
+Project
+-------
+ProjectCode
+ProjectName
+CompletiomDate
+
+Employee_Project
+-------------------
+EmployeeCode
+ProjectCode
+WorkedHours
+
+Job
+-----
+JobCode
+JobTitle
+
+---------------
+Data Redundancy
+------------------
+
+Cardinality:
+1-1  
+1-*
+*-*
+------------------
+Primary Key
+Foreign Key
+Composite Key
+
+StudentCode, StudentName, TeacherCode, TeacherName, CourseCode, CouseName, CourseCategoryCode, CourseCategoryName, Duration, TermNumber, Score
+101, Rania Yousefi, 500, Arta Mohammadbeigi, 500, Python, 1, Programming, 120, 20261023, 100
+
+
+
+
+
+
+
+
+
+
+
+
